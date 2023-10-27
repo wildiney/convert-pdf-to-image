@@ -1,0 +1,21 @@
+{
+  "name": "convert-pdf-to-image",
+  "version": "1.0.0",
+  "description": "A simple code for converting a pdf to images",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-img-convert": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "tsx": "^3.14.0",
+    "@types/node": "^20.8.9"
+  }
+}
